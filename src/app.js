@@ -21,7 +21,7 @@ import userRouter from "./routes/user.routes.js"
 
 
 // routes decalration
-app.use("api/v1/users", userRouter)
+app.use("/api/v1/users", userRouter)
 
 
 
